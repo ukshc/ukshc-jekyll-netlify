@@ -1,0 +1,93 @@
+h1 {
+    font-family: 'Tenor Sans', sans-serif;
+    color: #000
+}
+
+body h2 {
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+}
+
+body ul {
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+body {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    text-rendering: optimizeLegibility;
+    color: #444;
+}
+
+a {
+    color: #21759b;
+}
+
+a:hover {
+    color: #0f3647;
+}
+
+.main-title {
+    line-height: 1.3;
+    margin-bottom: 1rem;
+    color: #515151;
+}
+.main-title a {
+    color: #515151;
+    text-decoration: none;
+}
+
+.location-title {
+    font-weight: normal;
+    line-height: 1.8;
+    color: #757575;
+}
+a.nav-link {
+    color: #6a6a6a;
+    text-transform: uppercase;
+    line-height: 2;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+button.navbar-toggler {
+    cursor: pointer;
+    border: 5px solid #ededed;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+}
+.navbar-toggler span {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #444;
+    text-rendering: optimizeLegibility;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width:750px) {
+    .main-title {
+        font-size: 2.7rem
+    }
+    .location-title {
+        font-size: 1.4rem
+    }
+}
+
+@media screen and (max-width:750px) {
+    .main-title {
+        font-size: 2rem
+    }
+    .location-title {
+        font-size: 1.2rem
+    }
+}
+
+@media screen and (max-width:499px) {
+    .main-title {
+        font-size: 1.8rem
+    }
+    .location-title {
+        font-size: 1rem
+    }
+}
