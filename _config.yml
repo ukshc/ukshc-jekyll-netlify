@@ -1,3 +1,11 @@
+title: UK Sacred Harp Convention
+subtitle: Brighton – 2018
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-menus
+
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -13,8 +21,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: UK Sacred Harp Convention
-subtitle: Brighton – 2018
+
 # email: your-email@example.com
 # description: >- # this means to ignore newlines until "baseurl:"
 #   Write an awesome description for your new site here. You can edit this
@@ -24,13 +31,6 @@ subtitle: Brighton – 2018
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
-
-# Build settings
-markdown: kramdown
-# theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-menus
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
