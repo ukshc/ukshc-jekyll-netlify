@@ -18,5 +18,6 @@ fields:
   type: datetime
   hidden: false
   default: ''
+- type: text
 pages:
 - around-brighton.html
