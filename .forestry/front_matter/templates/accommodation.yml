@@ -20,4 +20,5 @@ fields:
   default: ''
 - type: text
 pages:
+- schedule.html
 - around-brighton.html
