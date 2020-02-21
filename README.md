@@ -1,6 +1,6 @@
 # UK Sacred Harp Convention website
 
-<https://ukshc.org> is the URL for the website. It points to <https://ukshc.netlify.com/>
+<https://ukshc.netlify.com>
 
 The website is stored here on Github. Netlify then pulls whatever's in the master branch here and builds a Jekyll site out of it.
 
